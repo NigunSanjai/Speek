@@ -78,8 +78,10 @@ Plan 2: Basic
 
 Prices include all applicable taxes. Users can cancel at any time.
 
-"Amateur" plan:
-A comprehensive introduction to effective communication, priced at 500 rupees. Covers basics of language skills and overall presence. Suitable for individuals looking to improve communication in any situation.
+"Novice" plan:
+Guided training sessions
+Customized practice exercises
+Personalized feedback and support
 
 "Basic" plan:
 Advanced training in communication skills, priced at 1000 rupees. Includes personalized coaching and interactive sessions for personalized feedback and improvement. Suitable for individuals looking to excel in communication in various settings.
