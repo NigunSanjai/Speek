@@ -22,11 +22,13 @@
   </head>
   <body>
     <header class="header">
-      <img
-        src="img/White_SIgnature_Art_Studio_Logo-removebg-preview (1).png"
-        alt="logo"
-        class="logo"
-      />
+      <a href="">
+        <img
+          src="img/White_SIgnature_Art_Studio_Logo-removebg-preview (1).png"
+          alt="logo"
+          class="logo"
+        />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a href="#" class="main-nav-link">Section 1</a></li>
@@ -436,7 +438,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="pricing-plan pricing-plan--starter  ">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Novice</p>
               <p class="plan-price"><span>₹</span>1000</p>
@@ -479,10 +481,8 @@
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
-                ><span
-                  >Access to Private Speek Community</span
-                >
-              </li> 
+                ><span>Access to Private Speek Community</span>
+              </li>
             </ul>
             <div class="plan-sign-up">
               <a href="#" class="btn btn-imp">Start Confident Speeking</a>
@@ -492,34 +492,152 @@
 
         <div class="container grid">
           <aside class="plan-details">
-            Prices include all applicable taxes. You can cancel at any time. Both plans inculde the following:
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans inculde the following:
           </aside>
         </div>
 
-
         <div class="container grid grid--4-cols">
           <div class="feature">
-            <ion-icon name="people-circle-outline" class="feature-icon"></ion-icon>
+            <ion-icon
+              name="people-circle-outline"
+              class="feature-icon"
+            ></ion-icon>
             <p class="feature-title">Personalized Training</p>
-            <p class="feature-text">"Because generic training is so yesterday."</p>
+            <p class="feature-text">
+              "Because generic training is so yesterday."
+            </p>
           </div>
           <div class="feature">
             <ion-icon name="book-outline" class="feature-icon"></ion-icon>
             <p class="feature-title">Interactive exercises:</p>
-            <p class="feature-text"> "Boredom? Not in our vocabulary."</p>
+            <p class="feature-text">"Boredom? Not in our vocabulary."</p>
           </div>
           <div class="feature">
             <ion-icon name="globe-outline" class="feature-icon"></ion-icon>
             <p class="feature-title">Real-world practice opportunities:</p>
-            <p class="feature-text">"Because speaking in front of a mirror is just so real."</p>
+            <p class="feature-text">
+              "Because speaking in front of a mirror is just so real."
+            </p>
           </div>
           <div class="feature">
             <ion-icon name="newspaper-outline" class="feature-icon"></ion-icon>
             <p class="feature-title">Expert feedback:</p>
-            <p class="feature-text">"Because we know you don't need a pat on the back, you need constructive criticism."</p>
+            <p class="feature-text">
+              "Because we know you don't need a pat on the back, you need
+              constructive criticism."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALL TO ACTION -->
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Expert Consultation is now FREE!
+              </h2>
+              <p class="cta-text">
+                "Take the first step to unlocking your full potential and
+                embracing your native fluency. Fill out the form now and join
+                our community of confident communicators today!"
+              </p>
+              <form action="" class="cta-form">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Enter your Name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email ID</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your EmailId"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please Choose one Option</option>
+                    <option value="Friends and Family">
+                      Friends and Family
+                    </option>
+                    <option value="Advertisement">Advertisement</option>
+                    <option value="Other Social Media">Social Media</option>
+                  </select>
+                </div>
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="imageofmike"></div>
           </div>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">
+          <a href="">
+            <img style="color: #47488a;"
+              src="img/Screenshot (1).png"
+              alt="logo"
+              class="logo"
+            />
+          </a>
+          <p class="copyright">
+            Copyright &copy; 2023 by Speek.Inc <br />All rights Resereved
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p>123 Main Street Coimbatore, Tamil Nadu 641014<br> India</p>
+            <p>
+              <a href="tel:79041-62755">+91 79041-62755</a>
+              <a href="tel:93456-93992">+91 93456-93992</a>
+              <br>
+              <a href="mailto:connect@speek.com">connect@speek.com</a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#">About Speek</a></li>
+            <li><a href="#">For Business</a></li>
+            <li><a href="#">Training Patners</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">iOS app</a></li>
+            <li><a href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a href="#">Plan directory</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col"></nav>
+        <nav class="nav-col"></nav>
+      </div>
+    </footer>
   </body>
 </html>

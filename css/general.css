@@ -108,6 +108,9 @@ SPACING SYSTEM (px)
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 .grid--center-v {
   align-items: center;
 }
@@ -123,6 +126,7 @@ SPACING SYSTEM (px)
   background-color: #ebebf2;
   color: #47488a;
 }
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -132,6 +136,9 @@ SPACING SYSTEM (px)
   /* making animations from one second to another and 0.3 s is the common value*/
   transition: all 0.3s;
   font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 .btn-imp:hover,
 .btn-imp:active {
@@ -148,6 +155,9 @@ SPACING SYSTEM (px)
 .margin-right-sm {
   margin-right: 1.6rem !important;
   text-decoration: none;
+}
+*:focus{
+  outline: none;
 }
 /* btn styling done */
 
