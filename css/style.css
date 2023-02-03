@@ -449,7 +449,7 @@ body {
 /* -------------------------------------- */
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 1.8rem 0 20rem;
 }
 .cta{
   display: grid;
@@ -532,5 +532,77 @@ body {
 /* -------------------------------------- */
 
 .footer {
-  padding: 9.6rem 0;
+  padding: 6.8rem 0;
+  /* margin-top: 5.8rem; */
+  height: min-content;
+  background-color: rgb(10, 10, 25);
+  /* border-top:1px solid #c2c2d8; */
+}
+.footer .grid{
+  row-gap: 0;
+}
+
+.footer-heading{
+  font-size:1.8rem;
+  font-weight:700;
+  margin-bottom: 4rem;
+}
+.footer-nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited{
+  text-decoration: none;
+  color:#c2c2d8;
+  font-size:1.6rem;
+  transition: all0.3s;
+
+}
+.footer-link:hover,
+.footer-link:active{
+
+  color:#47488a;
+}
+.social-links{
+  list-style: none;
+  display: flex;
+  gap:2.4rem;
+
+}
+.footer-logo{
+  display:block;
+  margin-bottom: 1.4rem;
+}
+.social-icon{
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.copyright{
+  font-size:1.4rem;
+  color:#ebebf2;
+  line-height: 1.6;
+  /* to push a element to bottom using flex */
+  margin-top: auto;
+}
+.logo-col{
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-logo img{
+  width: 12rem;
+}
+.contacts{
+  font-style: normal;
+  font-size:1.6rem;
+  line-height:1.6;
+}
+.address{
+  margin-bottom: 2rem;
+}
+.grid-footer{
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }

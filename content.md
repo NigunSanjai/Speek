@@ -114,10 +114,12 @@ Create account
 Sign in
 iOS app
 Android app
+
 About Speek
 For Business
 Training partners
 Careers
+
 Plan directory
 Help center
 Privacy & terms
