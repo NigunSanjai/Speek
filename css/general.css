@@ -87,6 +87,14 @@ SPACING SYSTEM (px)
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+ 
+}
+/* .grid:last-child{
+  margin-bottom: 0;
+} */
+/* A substitute for the above margining is here */
+.grid:not(:last-child){
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
@@ -220,3 +228,4 @@ strong {
   align-items: center;
   gap: 1.6rem;
 }
+
