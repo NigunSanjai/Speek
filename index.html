@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Always include the above line of code!! for media queries -->
     <title>Speek</title>
+    <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/general.css" />
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -21,6 +24,7 @@
     ></script>
   </head>
   <body>
+    <!-- nav-open -->
     <header class="header">
       <a href="">
         <img
@@ -38,6 +42,14 @@
           <li><a href="#" class="main-nav-link nav-cta">Join Us</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon
+          name="reorder-three-outline"
+          class="icon-mobile-nav"
+        ></ion-icon>
+        <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -515,17 +527,16 @@
           </div>
           <div class="feature">
             <ion-icon name="globe-outline" class="feature-icon"></ion-icon>
-            <p class="feature-title">Real-world practice opportunities:</p>
+            <p class="feature-title">Real-world opportunities:</p>
             <p class="feature-text">
               "Because speaking in front of a mirror is just so real."
             </p>
           </div>
           <div class="feature">
             <ion-icon name="newspaper-outline" class="feature-icon"></ion-icon>
-            <p class="feature-title">Expert feedback:</p>
+            <p class="feature-title">Expert feedback sessions:</p>
             <p class="feature-text">
-              "Because we know you don't need a pat on the back, you need
-              constructive criticism."
+              "Because we know you need constructive criticism."
             </p>
           </div>
         </div>
@@ -587,16 +598,29 @@
       <div class="container grid grid-footer">
         <div class="logo-col">
           <a href="#" class="footer-logo">
-            <img style="color: #47488a;"
+            <img
+              style="color: #47488a"
               src="img/White_SIgnature_Art_Studio_Logo-removebg-preview (1).png"
               alt="logo"
               class="logo"
             />
           </a>
           <ul class="social-links">
-            <li><a class = "footer-link"  href="#"><ion-icon name="logo-instagram"  class="social-icon"></ion-icon></a></li>
-            <li><a class = "footer-link" href="#"><ion-icon name="logo-whatsapp" class="social-icon"></ion-icon></a></li>
-            <li><a class = "footer-link" href="#"><ion-icon name="logo-twitter" class="social-icon"></ion-icon></a></li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon name="logo-whatsapp" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+              ></a>
+            </li>
           </ul>
           <p class="copyright">
             Copyright &copy; 2023 by Speek.Inc <br />All rights Resereved
@@ -605,43 +629,46 @@
         <div class="address-col">
           <p class="footer-heading">Contact Us</p>
           <address class="contacts">
-            <p class="address">123 Main Street Coimbatore, Tamil Nadu, India - 641602</p>
+            <p class="address">
+              123 Main Street Coimbatore, Tamil Nadu, India - 641602
+            </p>
             <p>
-              <a class="footer-link" href="tel:93456-93992">+91 93456-93992</a><br>
+              <a class="footer-link" href="tel:93456-93992">+91 93456-93992</a
+              ><br />
               <a class="footer-link" href="tel:79041-62755">+91 79041-62755</a>
-              <br>
-              <a class="footer-link" href="mailto:connect@speek.com">connect@speek.com</a>
+              <br />
+              <a class="footer-link" href="mailto:connect@speek.com"
+                >connect@speek.com</a
+              >
             </p>
           </address>
         </div>
         <nav class="nav-col">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
-            <li><a class = "footer-link" href="#">About Speek</a></li>
-            <li><a class = "footer-link" href="#">For Business</a></li>
-            <li><a class = "footer-link" href="#">Training Patners</a></li>
-            <li><a class = "footer-link" href="#">Careers</a></li>
+            <li><a class="footer-link" href="#">About Speek</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Training Patners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
           </ul>
         </nav>
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
-            <li><a class = "footer-link" href="#">Create account</a></li>
-            <li><a class = "footer-link" href="#">Sign in</a></li>
-            <li><a class = "footer-link" href="#">iOS app</a></li>
-            <li><a class = "footer-link" href="#">Android app</a></li>
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
           </ul>
         </nav>
         <nav class="nav-col">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
-            <li><a class = "footer-link" href="#">Plan directory</a></li>
-            <li><a class = "footer-link" href="#">Help Center</a></li>
-            <li><a class = "footer-link" href="#">Privacy & Terms</a></li>
+            <li><a class="footer-link" href="#">Plan directory</a></li>
+            <li><a class="footer-link" href="#">Help Center</a></li>
+            <li><a class="footer-link" href="#">Privacy & Terms</a></li>
           </ul>
         </nav>
-        <nav class="nav-col"></nav>
-        <nav class="nav-col"></nav>
       </div>
     </footer>
   </body>

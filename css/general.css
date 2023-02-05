@@ -51,7 +51,7 @@ SPACING SYSTEM (px)
   letter-spacing: -0.5px;
 }
 .heading-primary {
-  font-size: 4.4rem;
+  font-size: 4.2rem;
   line-height: 1;
   margin-bottom: 3.2rem;
 }
@@ -87,13 +87,12 @@ SPACING SYSTEM (px)
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
- 
 }
 /* .grid:last-child{
   margin-bottom: 0;
 } */
 /* A substitute for the above margining is here */
-.grid:not(:last-child){
+.grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -156,7 +155,7 @@ SPACING SYSTEM (px)
   margin-right: 1.6rem !important;
   text-decoration: none;
 }
-*:focus{
+*:focus {
   outline: none;
 }
 /* btn styling done */
@@ -167,7 +166,7 @@ SPACING SYSTEM (px)
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -237,5 +236,5 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
-
