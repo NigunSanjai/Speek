@@ -566,10 +566,11 @@
                 embracing your native fluency. Fill out the form now and join
                 our community of confident communicators today!"
               </p>
-              <form action="" class="cta-form">
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
+                    name="full-name"
                     id="full-name"
                     type="text"
                     placeholder="Enter your Name"
@@ -579,6 +580,7 @@
                 <div>
                   <label for="email">Email ID</label>
                   <input
+                    name="email"
                     id="email"
                     type="email"
                     placeholder="Enter your Email Id"
@@ -587,7 +589,7 @@
                 </div>
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <select id="select-where" name="reference" required>
                     <option value="">Please Choose one Option</option>
                     <option value="Friends and Family">
                       Friends and Family
