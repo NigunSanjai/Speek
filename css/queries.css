@@ -91,6 +91,7 @@ instead 1 rem= 1em = 16px */
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
   .main-nav {
     background-color: #5b5d97;
@@ -123,6 +124,7 @@ instead 1 rem= 1em = 16px */
     font-size: 3rem;
   }
   .nav-open .main-nav {
+    z-index: 100;
     opacity: 100%;
     pointer-events: auto;
     visibility: visible;
